@@ -1,0 +1,205 @@
+.TextColor{
+    color: white;
+}
+.Container{
+    width: 100%;
+}
+.BackColor{
+    background-color: #d63384;
+}
+.cbc {
+    width: 100%;
+    overflow: hidden; /* This clears the float */
+  }
+  
+.img {
+    float: left;
+    margin-right: 20px; /* This adds some space between the image and text */
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 15px;
+  }
+  
+  h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .credits {
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .credits:before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #222 transparent;
+  }
+  
+  .credits p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  @keyframes credits {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .credits:before {
+    animation: credits 10s linear infinite;
+  }
+  .line{
+    color: green;
+
+  }
+  .colorchange{
+     background-color: #333;
+     color: wheat;
+  }
+  .login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+.NavbarSet{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    position: relative;
+  }
+  .NavbarSet:hover{
+    color: green;
+  }
+  .NavbarSet::after{
+    content: "";
+    position: absolute;
+    background-color: green;
+    height: 3px;
+    width: 0%;
+    left: 0px;
+    bottom: -3px;
+   transition: 0.3s;
+  }
+  .NavbarSet:hover::after{
+    width: 100%;
+  }
+  
+ /* .ContainerSet{
+    
+    font-size: larger;
+    font-size: xx-large;
+    color: white;
+  }  */
+    /* .Cardsimg{
+    border-image: fill;
+    align-content: center;
+    
+  }  */
+  .linkstyle{
+    text-decoration: none;
+    color: #ccc;
+
+  }
+
+  .editpof{
+    text-decoration: none;
+    color: black;
+  }
+  .editpof:hover{
+    color: yellow;
+  }
+  
